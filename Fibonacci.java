@@ -1,7 +1,7 @@
 import java.math.BigInteger;
 import java.util.Scanner;
 public class Fibonacci{
-    public static BigInteger fo(int num){
+    public static BigInteger of(int num){
         BigInteger num1 = BigInteger.ONE;
         BigInteger num2 = BigInteger.ONE;
         BigInteger temp = BigInteger.ZERO;
@@ -24,7 +24,7 @@ public class Fibonacci{
         while(scan.hasNextInt()){
             int num = scan.nextInt();
             for(int i=1;i<=200;++i){
-            	System.out.println("Fibonacci.fo(" + i + ") == " + Fibonacci.fo(i));
+            	System.out.println("Fibonacci.of(" + i + ") == " + Fibonacci.of(i));
             }
         }
     }
